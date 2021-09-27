@@ -234,6 +234,11 @@ nav a:hover {
     color: #FFF;
 }
 
+.icon a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .ftext {
     display: flex;
     justify-content: center;
