@@ -1,19 +1,17 @@
+* {
+    border: 0px;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: #E0E1DD;
 }
 
-header {
-    display: flex;
-    height: 75px;
-    justify-content: center;
-}
-
 .header {
     display: flex;
     justify-content: center;
-    width: 100%;
+    height: 75px;
     background-color:#0D1B2A;
 }
 
@@ -254,4 +252,86 @@ nav a:hover {
 
 .ftext a:hover {
     color: #D89000;
+}
+
+@media (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .menu {
+        font-size: 13px;
+    }
+    
+    .container {
+        width: 100%;
+        border: 0px;
+    }
+
+    .name {
+        font-size: 15px;
+    }
+
+    .image img{
+        width: 340px;
+    }
+
+    .biography {
+        text-align: justify;
+        padding: 15px;
+    }
+
+    #gallery {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+    .gimg {
+        margin-bottom: 20px;
+    }
+
+    .gimg img {
+        width: 300px;
+        height: 400px;
+        margin: 0px;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #timeline {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 0px;
+        margin: 0px;
+    }
+
+    #timeline .title {
+        display: block;
+    }
+
+    .timeline-content {
+        padding-left: 0px;
+    }
+
+    .timeline-content li {
+        width: 300px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    #information {
+        width: 100%;
+        border: 0;
+    }
+
+    .infotext {
+        font-size: 14px;
+    }
 }
